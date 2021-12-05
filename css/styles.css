@@ -504,16 +504,20 @@ h2 {
 .box{
   display: flex;
   align-items: baseline;
-  
+  justify-content: space-between;
+  /*margin-left: auto;*/
 }
 .box-icon-link{
   display: inline-block;
+  margin-right: 93px;
 }
-
-.footer-social:not(:last-child) {
-  
+.footer-social-logo{
   margin-right: 70px;
 }
+/*.footer-social:not(:last-child) {
+  
+  margin-right: 70px;
+}*/
 
 
 .footer-link{
@@ -564,9 +568,7 @@ h2 {
   outline: none;
 }
 
-.online{
-  /*margin-left: 23px;*/
-}
+
 
 .online-form{
   display: flex;
@@ -910,7 +912,6 @@ h2 {
 
 .modal-close-icon{
   border-radius: 50%;
-
 }
 
 .is-hidden{
@@ -960,7 +961,6 @@ h2 {
 }
 
 .modal-user-icon{
-  
   position: relative;
   
 }
