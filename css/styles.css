@@ -1093,8 +1093,6 @@ h2 {
 
 }
 
-
-
 .modal-check:checked + .check-text .check-icon{
   background-color: var(--accent-color);
   border: none;
